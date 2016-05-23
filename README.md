@@ -30,5 +30,8 @@
 6. Reference database or sequences.
   1. hg38 database is used as an example here (http://hgdownload.cse.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz).
 
-## Further readings
+## Further reading
+1. Computing with BOINC (https://boinc.berkeley.edu/trac/wiki/ProjectMain)
+2. BLAST® Command Line Applications User Manual (http://www.ncbi.nlm.nih.gov/books/NBK279690/)
+3. Oracle VM VirtualBox documentation (https://www.virtualbox.org/wiki/Documentation)
 

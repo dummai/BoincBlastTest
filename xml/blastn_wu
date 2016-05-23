@@ -1,0 +1,53 @@
+<file_info>
+        <number>0</number>
+        <gzip/>
+</file_info>
+<file_info>
+        <number>1</number>
+        <gzip/>
+        <sticky/>
+</file_info>
+<file_info>
+        <number>2</number>
+        <gzip/>
+        <sticky/>
+</file_info>
+<file_info>
+        <number>3</number>
+        <gzip/>
+        <sticky/>
+</file_info>
+<file_info>
+        <number>4</number>
+        <gzip/>
+        <sticky/>
+</file_info>
+<workunit>
+        <file_ref>
+<file_number>0</file_number>
+        <open_name>in.fa</open_name>
+        <copy_file/>
+</file_ref>
+<file_ref>
+        <file_number>1</file_number>
+        <open_name>db.ref.nhr</open_name>
+        <copy_file/>
+</file_ref>
+<file_ref>
+        <file_number>2</file_number>
+        <open_name>db.ref.nin</open_name>
+        <copy_file/>
+</file_ref>
+<file_ref>
+        <file_number>3</file_number>
+        <open_name>db.ref.nsq</open_name>
+        <copy_file/>
+</file_ref>
+<file_ref>
+        <file_number>4</file_number>
+        <open_name>blastn.exe</open_name>
+        <copy_file/>
+</file_ref>
+    <rsc_fpops_bound>1e36</rsc_fpops_bound>
+    <rsc_fpops_est>1e40</rsc_fpops_est>
+</workunit>

@@ -25,5 +25,5 @@
     2. BLAST for Microsoft Windows 32-bit could run on Microsoft Windows 64-bit, but not vice versa.
 
 5. Query sequences for BLAST analysis
-  1. A training dataset from the Genome in a Bottle consortium is used as an example here [NA12878] (ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/131219_D00360_005_BH814YADXX/Project_RM8398/Sample_U0a/U0a_CGATGT_L001_R1_001.fastq.gz)
+  1. A training dataset from the Genome in a Bottle consortium is used as an example here [NA12878](ftp://ftp-trace.ncbi.nlm.nih.gov/giab/ftp/data/NA12878/NIST_NA12878_HG001_HiSeq_300x/131219_D00360_005_BH814YADXX/Project_RM8398/Sample_U0a/U0a_CGATGT_L001_R1_001.fastq.gz)
 

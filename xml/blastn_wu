@@ -50,4 +50,5 @@
 </file_ref>
     <rsc_fpops_bound>1e36</rsc_fpops_bound>
     <rsc_fpops_est>1e40</rsc_fpops_est>
+    <delay_bound>3600</delay_bound>
 </workunit>

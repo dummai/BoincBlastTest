@@ -1,0 +1,14 @@
+<version>
+<file>
+<physical_name>wrapper_26015_windows_intelx86.exe</physical_name>
+<main_program/>
+</file>
+<file>
+<physical_name>blastn_windows_intelx86_0.bat</physical_name>
+<logical_name>blastn</logical_name>
+</file>
+<file>
+<physical_name>blastn_job_1.0.xml</physical_name>
+<logical_name>job.xml</logical_name>
+</file>
+</version>

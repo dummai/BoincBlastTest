@@ -2,16 +2,16 @@
 <boinc>
   <config>
     <upload_dir>
-      /home/boincadm/projects/test/upload
+      /home/boincadm/projects/blast/upload
     </upload_dir>
     <send_result_abort>
       1
     </send_result_abort>
     <long_name>
-      test
+      blast
     </long_name>
     <cgi_url>
-      http://137.138.234.35/test_cgi/
+      http://111.11.111.123/blast_cgi/
     </cgi_url>
     <sched_debug_level>
       3
@@ -23,31 +23,31 @@
       1024
     </uldl_dir_fanout>
     <download_url>
-      http://137.138.234.35/test/download
+      http://111.11.111.123/blast/download
     </download_url>
     <db_user>
       boincadm
     </db_user>
     <log_dir>
-      /home/boincadm/projects/test/log_debian
+      /home/boincadm/projects/blast/log_debian
     </log_dir>
     <app_dir>
-      /home/boincadm/projects/test/apps
+      /home/boincadm/projects/blast/apps
     </app_dir>
     <download_dir>
-      /home/boincadm/projects/test/download
+      /home/boincadm/projects/blast/download
     </download_dir>
     <fuh_debug_level>
       3
     </fuh_debug_level>
     <master_url>
-      http://137.138.234.35/test/
+      http://111.11.111.123/blast/
     </master_url>
     <host>
       debian
     </host>
     <db_name>
-      test
+      blast
     </db_name>
     <shmem_key>
       0x1111efb4
@@ -56,10 +56,10 @@
       1
     </show_results>
     <key_dir>
-      /home/boincadm/projects/test/keys/
+      /home/boincadm/projects/blast/keys/
     </key_dir>
     <upload_url>
-      http://137.138.234.35/test_cgi/file_upload_handler
+      http://111.11.111.123/blast_cgi/file_upload_handler
     </upload_url>
     <db_passwd>
       
@@ -188,38 +188,22 @@
       </output>
     </task>
   </tasks>
-  <daemons>
+ <daemons>
     <daemon>
-      <cmd>
-        feeder -d 3 
-      </cmd>
+      <cmd>feeder -d 3 </cmd>
     </daemon>
     <daemon>
-      <cmd>
-        transitioner -d 3 
-      </cmd>
+      <cmd>transitioner -d 3 </cmd>
     </daemon>
     <daemon>
-      <cmd>
-        file_deleter -d 3 
-      </cmd>
+      <cmd>file_deleter -d 3 </cmd>
     </daemon>
-    <daemon>
-      <cmd>
-        sample_work_generator -d 3
-      </cmd>
+<daemon>
+      <cmd>sample_trivial_validator --app blast </cmd>
     </daemon>
-    <daemon>
-      <cmd>
-        sample_bitwise_validator -d 3 -app uppercase
-      </cmd>
-    </daemon>
-    <daemon>
-      <cmd>
-        sample_assimilator -d 3 -app uppercase
-      </cmd>
+<daemon>
+      <cmd>sample_assimilator --app blast </cmd>
     </daemon>
   </daemons>
-  <msg_host/>
 </boinc>
 
